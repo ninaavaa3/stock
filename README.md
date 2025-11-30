@@ -21,7 +21,7 @@ https://www.figma.com/design/PtpUrR70yMug4SRWd4PshJ/stock?node-id=18-12&t=Ja9eew
 
 ---------
 Changes include:
-Update the table and other information every 5 minutes and display the difference with each update
+Update the table and other information every 5 second and display the difference with each update
 Add a "spread" column to display the difference between the quoted bid and ask prices for an asset
 Add multiple dashboard cards to display all the main data retrieved from the table
 Redesigned the table to be more user-friendly
