@@ -18,9 +18,9 @@ export function StockDashboard() {
   } = useStockData({id:params?.id});
 
   return (
-    <main className="xl:p-1 grid xl:grid-cols-2 ">
+    <main className="xl:p-1 grid xl:grid-cols-3 ">
       <div/>
-      <div>
+      <div className="col-span-2">
       
         <DynamicStockTable
           data={dynamicData?.bestLimits ?? []}

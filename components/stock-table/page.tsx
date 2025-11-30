@@ -32,9 +32,9 @@ export function DynamicStockTable({ data, isLoading }: IStockTableProps) {
     const spreadPercent = ((spread / buyPrice) * 100).toFixed(2);
 
     return (
-      <div className="flex flex-col justify-center pt-3">
+      <div className="flex flex-col  justify-between ">
         <span
-          className={`text-xs h-3 font-bold  ${
+          className={`text-[12px] h-3 font-bold mb-1 ${
             Number(spreadPercent) < 0.5 ? "text-green-600" : "text-red-600"
           } `}
         >
@@ -157,7 +157,7 @@ export function DynamicStockTable({ data, isLoading }: IStockTableProps) {
   return (
     <div className="flex flex-col gap-4">
       <Dashboard data={data} isLoading={false} />
-      <div className="h-[270px] w-full overflow-hidden rounded-xl border-2 border-gray-200 shadow-2xl bg-white">
+      <div className="h-[240px] border-0 border-[#F0F0F0] w-full overflow-hidden    bg-white">
         <CustomTable rowData={data} getRowId={getRowId} columnDefs={columnDefs}/>
       </div>
     </div>

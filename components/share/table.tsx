@@ -18,7 +18,7 @@ export default function CustomTable({
     borderColor: "#e5e7eb",
     headerBackgroundColor: "#f3f4f6",
     headerTextColor: "#ffffff",
-    oddRowBackgroundColor: "#fafafa",
+    oddRowBackgroundColor: "#F6F6F6",
     rowHoverColor: "#f0f9ff",
     cellHorizontalPadding: 8,
     borderRadius: 8,
@@ -38,6 +38,8 @@ export default function CustomTable({
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        border:"none",
+        fontSize:"12px"
       },
     }),
     []
