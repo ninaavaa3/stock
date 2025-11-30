@@ -157,7 +157,7 @@ export function DynamicStockTable({ data, isLoading }: IStockTableProps) {
   return (
     <div className="flex flex-col gap-4">
       <Dashboard data={data} isLoading={false} />
-      <div className="h-[240px] border-0 border-[#F0F0F0] w-full overflow-hidden    bg-white">
+      <div className="h-[240px]  shadow-lg rounded-2xl border-0 border-[#F0F0F0] w-full overflow-hidden    bg-white">
         <CustomTable rowData={data} getRowId={getRowId} columnDefs={columnDefs}/>
       </div>
     </div>
